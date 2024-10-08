@@ -1,0 +1,51 @@
+[
+    {
+        "brand": "Tata",
+        "cat": "car",
+        "img": "https://picsum.photos/200/300",
+        "model": "Nano",
+        "regno": 1221
+    },
+    {
+        "brand": "Tata",
+        "cat": "car",
+        "img": "https://picsum.photos/200/300",
+        "model": "Nexon",
+        "regno": 6543
+    },
+    {
+        "brand": "Swift",
+        "cat": "car",
+        "img": "https://picsum.photos/200/300",
+        "model": "Maruti",
+        "regno": 5678
+    },
+    {
+        "brand": "Tata",
+        "cat": "car",
+        "img": "https://picsum.photos/200/300",
+        "model": "Punch",
+        "regno": 987
+    },
+    {
+        "brand": "Tesla",
+        "cat": "car",
+        "img": "https://picsum.photos/200/300",
+        "model": "Electric",
+        "regno": 987
+    },
+    {
+        "brand": "KTM",
+        "cat": "bike",
+        "img": "https://picsum.photos/200/300",
+        "model": "Duke",
+        "regno": 987
+    },
+    {
+        "brand": "Axis",
+        "cat": "scooter",
+        "img": "https://picsum.photos/200/300",
+        "model": "125",
+        "regno": 987
+    }
+]

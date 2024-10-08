@@ -1,8 +1,8 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import VehicleCard from '../components/Card'
 import AppBar from '../components/AppBar'
-import { GestureDetector } from 'react-native-gesture-handler';
+import { VehicleCard } from '../components/Card'
+import { router } from 'expo-router';
 
 export default function ViewVehicles() {
   const vehicleList = [
@@ -31,10 +31,19 @@ export default function ViewVehicles() {
       img: 'https://picsum.photos/200/300'
     }
   ]
+  const handlePress = (vehicle) => {
+    router.push({
+      pathname: 'pages/Packages',
+      params: {
+        vehicle: JSON.stringify(vehicle)
+      },
+    });
+  }
   return (
     <View>
       <AppBar title="View Vehicles" />
-      {vehicleList.map((vehicle) => (<VehicleCard key={vehicle.model} vehicle={vehicle} />))}
+      {/* {vehicleList.map((vehicle) => (console.log(vehicle)))} */}
+      {vehicleList.map((vehicle) => (<VehicleCard key={vehicle.model} vehicle={vehicle} handlePress={() => handlePress(vehicle)} />))}
     </View>
   )
 }

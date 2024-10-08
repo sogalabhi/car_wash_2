@@ -14,7 +14,7 @@ export default function RootLayout() {
         name="pages/Packages"
         options={{
           title: 'Packages',
-          headerBackButtonMenuEnabled:true
+          headerBackButtonMenuEnabled: true
         }}
       />
     </Stack>
